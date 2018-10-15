@@ -1,0 +1,36 @@
+{
+    "Employees":
+    [
+        {
+            "id" : 1,
+            "fullname":"Humairaa Furreedun",
+            "username": "bhf",
+            "category": {
+                "Java": {
+                    "skills": {
+                        "Spring": {
+                            "profLevel": 2,
+                            "intLevel": 3
+                        }
+                    }
+                }
+            }
+        },
+
+        {
+            "id" : 2,
+            "fullname":"John Smith",
+            "username": "jsm",
+            "category": {
+                ".NET": {
+                    "skills": {
+                        "Entity Framework 6": {
+                            "profLevel": 1,
+                            "intLevel": 3
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

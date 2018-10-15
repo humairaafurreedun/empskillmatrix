@@ -1,0 +1,256 @@
+{
+    "Categories":
+    [
+        {
+            "id":1,
+            "name": "Java",
+            "skills": [
+                {
+                    "skillId":1,
+                    "skillName": "Spring Framework",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":2,
+                    "skillName": "Struts",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":3,
+                    "skillName": "JUnit",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId": 4,
+                    "skillName": "Hibernate",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":5,
+                    "skillName": "Android SDK",
+                    "profLevel": 2,
+                    "intLevel": 3
+                }
+            ]
+
+        },
+
+        {
+            "id":2,
+            "name": ".NET",
+            "skills": [
+                {
+                    "skillId":1,
+                    "skillName": "Entity Framework 6",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":2,
+                    "skillName": "Entity Framework Core",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":3,
+                    "skillName": "NHibernate",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId": 4,
+                    "skillName": "Xamarin forms",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":5,
+                    "skillName": "ASP.NET",
+                    "profLevel": 2,
+                    "intLevel": 3
+                }
+            ]
+
+        },
+
+        {
+            "id":3,
+            "name": "Testing",
+            "skills": [
+                {
+                    "skillId":1,
+                    "skillName": "Analysis",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":2,
+                    "skillName": "Create test cases",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":3,
+                    "skillName": "Communication skills",
+                    "profLevel": 2,
+                    "intLevel": 3
+                }
+            ]
+
+        },
+
+        {
+            "id":4,
+            "name": "Business Analysis",
+            "skills": [
+                {
+                    "skillId":1,
+                    "skillName": "Communication Skills",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":2,
+                    "skillName": "Problem-solving",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":3,
+                    "skillName": "Critical thinking",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId": 4,
+                    "skillName": "Documentation",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":5,
+                    "skillName": "Analysis and Modelling",
+                    "profLevel": 2,
+                    "intLevel": 3
+                }
+            ]
+
+        },
+
+        {
+            "id":5,
+            "name": "Management",
+            "skills": [
+                {
+                    "skillId":1,
+                    "skillName": "Leadership",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":2,
+                    "skillName": "Decision-making",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":3,
+                    "skillName": "Planning",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId": 4,
+                    "skillName": "Delegation",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":5,
+                    "skillName": "Time management",
+                    "profLevel": 2,
+                    "intLevel": 3
+                }
+            ]
+
+        },
+
+        {
+            "id":6,
+            "name": "Web Technologies",
+            "skills": [
+                {
+                    "skillId":1,
+                    "skillName": "HTML",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":2,
+                    "skillName": "CSS",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":3,
+                    "skillName": "JavaScript",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId": 4,
+                    "skillName": "JQuery",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":5,
+                    "skillName": "Angular JS",
+                    "profLevel": 2,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId": 6,
+                    "skillName": "React JS",
+                    "profLevel": 1,
+                    "intLevel": 3
+                },
+
+                {
+                    "skillId":7,
+                    "skillName": "Bootstrap",
+                    "profLevel": 2,
+                    "intLevel": 2
+                }
+            ]
+
+        }
+    ]
+}

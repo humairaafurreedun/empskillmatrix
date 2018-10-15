@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Java",
+        "description": "Java is a general-purpose computer-programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible."
+    },
+
+    {
+        "id": 2,
+        "name": ".NET",
+        "description": ".NET Framework is a software framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library named Framework Class Library and provides language interoperability across several programming languages."
+
+    },
+
+    {
+        "id": 3,
+        "name": "Business Analysis",
+        "description": "Business analysis is a research discipline of identifying business needs and determining solutions to business problems. Solutions often include a software-systems development component, but may also consist of process improvement, organizational change or strategic planning and policy development."
+    },
+
+    {
+        "id": 4,
+        "name": "Testing",
+        "description": "Software testing is an investigation conducted to provide stakeholders with information about the quality of the software product or service under test."
+    }
+
+    
+]

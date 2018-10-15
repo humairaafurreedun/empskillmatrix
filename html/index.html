@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Employee Skill Summary</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/manageTable.css">
+<link rel="stylesheet" type="text/css" href="../css/main_scrollbar.css">
+<link rel="stylesheet" type="text/css" href="/css/table_design.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/js/jquery.js"></script>
+
+</head>
+<body>
+
+
+	<h2 align="center">Summary Skills For User</h2>
+	<p align="center">Below is the list of skills that you had saved during registration. Clicking on on one of the languages will display a list of sub-skills along with their proficiency and interest. On this page, you can add another skill, edit or delete one. </p>
+
+
+
+
+	<div class="scrollmenu">
+	<a id="java" href="#java" >Java</a>
+	<a id="csharp" href="#csharp">C# .NET</a>
+	<a id="basic" href="#basic">BASIC</a>
+	<a id="pascal" href="#Pascal">Pascal</a>
+	<a id="visualbasic" href="#visualbasic">Visual Basic</a>
+	<a id="snobol" href="#snobol">SNOBOL</a>
+	<a id="scratch" href="#scratch">Scratch</a>  
+	<a id="apl" href="#apl">APL</a>
+	<a id="kotlin" href="#kotlin">Kotlin</a>
+	<a id="fortran" href="#fortran">Fortran</a>
+	<a id="elixir" href="#elixir">Elixir</a>
+	<a id="swift" href="#swift">Swift</a>
+	<a id="caml" href="#caml">Caml</a>
+	<a id="lisp" href="#lisp">Lisp</a>
+	<a id="c" href="#c">C</a>
+
+        <form class="navbar-form navbar-right">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+       
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+</div>
+
+    <div class="container">
+        <div class="table-wrapper">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-sm-6">
+						<h2>User <b>Skills</b></h2>
+					</div>
+					<div class="col-sm-6">
+						<a href="#addSkillModal" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Add Skills</span></a> 					
+					</div>
+                </div>
+			</div>
+			<div>
+            <table id="tableJava" class="table table-bordered"  >
+                <thead>
+                    <tr>
+						<th>ID</th>
+                        <th>Language Name</th>
+                        <th>Proficiency Level</th>
+						<th>Interest Level</th>
+						<th>Edit</th>
+						<th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+						<td>1</td>
+                        <td>Scala</td>
+                        <td>3</td>
+                 		 <td>2</td>
+                        <td>
+                        	<a href="#editSkillModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+						</td>
+						<td>
+							<a href="#deleteSkillModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+                    </tr>
+                    
+                    <tr>
+						<td>2</td>
+                        <td>Fantom</td>
+                        	<td>1</td>
+
+						 <td>3</td>
+                        <td>
+                             <a href="#editSkillModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a> 
+						</td>
+						<td>
+							<a href="#deleteSkillModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+                    </tr>
+						
+                </tbody>
+			</table>
+			
+			<table id="tableCsharp" class="table table-bordered"  >
+                <thead>
+                    <tr>
+						<th>ID</th>
+                        <th>Language Name</th>
+                        <th>Proficiency Level</th>
+						<th>Interest Level</th>
+						<th>Edit</th>
+						<th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+						<td>1</td>
+                        <td>NHibernate</td>
+                        <td>3</td>
+                 		 <td>2</td>
+                        <td>
+                        	<a href="#editSkillModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+						</td>
+						<td>
+							<a href="#deleteSkillModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+                    </tr>
+                    
+                    <tr>
+						<td>2</td>
+                        <td>EntityFramework</td>
+                        	<td>1</td>
+
+						 <td>3</td>
+                        <td>
+                             <a href="#editSkillModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a> 
+						</td>
+						<td>
+							<a href="#deleteSkillModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+                    </tr>
+						
+                </tbody>
+			</table>
+			
+			<table id="tableBasic" class="table table-bordered"  >
+                <thead>
+                    <tr>
+						<th>ID</th>
+                        <th>Language Name</th>
+                        <th>Proficiency Level</th>
+						<th>Interest Level</th>
+						<th>Edit</th>
+						<th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+						<td>1</td>
+                        <td>HDGYg</td>
+                        <td>3</td>
+                 		 <td>2</td>
+                        <td>
+                        	<a href="#editSkillModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+						</td>
+						<td>
+							<a href="#deleteSkillModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+                    </tr>
+                    
+                    <tr>
+						<td>2</td>
+                        <td>IHGSy</td>
+                        	<td>1</td>
+
+						 <td>3</td>
+                        <td>
+                             <a href="#editSkillModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a> 
+						</td>
+						<td>
+							<a href="#deleteSkillModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+                    </tr>
+						
+                </tbody>
+			</table>
+			
+			<table id="tablePascal" class="table table-bordered"  >
+                <thead>
+                    <tr>
+						<th>ID</th>
+                        <th>Language Name</th>
+                        <th>Proficiency Level</th>
+						<th>Interest Level</th>
+						<th>Edit</th>
+						<th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+						<td>1</td>
+                        <td>Hdgh</td>
+                        <td>3</td>
+                 		 <td>2</td>
+                        <td>
+                        	<a href="#editSkillModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+						</td>
+						<td>
+							<a href="#deleteSkillModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+                    </tr>
+                    
+                    <tr>
+						<td>2</td>
+                        <td>HFSts</td>
+                        	<td>1</td>
+
+						 <td>3</td>
+                        <td>
+                             <a href="#editSkillModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a> 
+						</td>
+						<td>
+							<a href="#deleteSkillModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+                    </tr>
+						
+                </tbody>
+			</table>
+			
+			<table id="tableVB" class="table table-bordered"  >
+                <thead>
+                    <tr>
+						<th>ID</th>
+                        <th>Language Name</th>
+                        <th>Proficiency Level</th>
+						<th>Interest Level</th>
+						<th>Edit</th>
+						<th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+						<td>1</td>
+                        <td>Visual Studio</td>
+                        <td>3</td>
+                 		 <td>2</td>
+                        <td>
+                        	<a href="#editSkillModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+						</td>
+						<td>
+							<a href="#deleteSkillModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+                    </tr>
+                    
+                    <tr>
+						<td>2</td>
+                        <td>dftfg</td>
+                        	<td>1</td>
+
+						 <td>3</td>
+                        <td>
+                             <a href="#editSkillModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a> 
+						</td>
+						<td>
+							<a href="#deleteSkillModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+                    </tr>
+						
+                </tbody>
+            </table>
+		</div> 
+        </div>
+    </div>
+	<!-- Add Modal HTML -->
+	<div id="addSkillModal" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form>
+					<div class="modal-header">						
+						<h4 class="modal-title">Add Skill</h4>
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					</div>
+					<div class="modal-body">					
+						<div class="form-group">
+							<label>Language Name:</label>
+							<input type="text" class="form-control" required>
+						</div>
+						<div class="form-group">
+							<label>Proficiency Level:</label>&nbsp &nbsp &nbsp
+							<select>
+								<option value="level1">1</option>
+								<option value="level2">2</option>
+								<option value="level3">3</option>
+								<option value="level4">4</option>
+								<option value="level5">5</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label>Interest Level:</label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+							<select>
+								<option value="level1">1</option>
+								<option value="level2">2</option>
+								<option value="level3">3</option> 
+							</select>
+						</div>
+						 					
+					</div>
+					<div class="modal-footer">
+						<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+						<input type="submit" class="btn btn-success" value="Add">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+		<div id="editSkillModal" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<form>
+						<div class="modal-header">						
+							<h4 class="modal-title">Edit Skill</h4>
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						</div>
+						<div class="modal-body">					
+							<div class="form-group">
+								<label>Language Name:</label>
+								<input type="text" class="form-control" readonly="">
+							</div>
+							<div class="form-group">
+								<label>Proficiency Level:</label>&nbsp &nbsp &nbsp
+								<select>
+									<option value="level1">1</option>
+									<option value="level2">2</option>
+									<option value="level3">3</option>
+									<option value="level4">4</option>
+									<option value="level5">5</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label>Interest Level:</label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+								<select>
+									<option value="level1">1</option>
+									<option value="level2">2</option>
+									<option value="level3">3</option> 
+								</select>
+							</div>				
+						</div>
+						<div class="modal-footer">
+							<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+							<input type="submit" class="btn btn-info" value="Save">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="deleteSkillModal" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<form>
+						<div class="modal-header">						
+							<h4 class="modal-title">Delete Skill</h4>
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						</div>
+						<div class="modal-body">					
+							<p>Are you sure you want to delete these Records?</p>
+							<p class="text-warning"><small>This action cannot be undone.</small></p>
+						</div>
+						<div class="modal-footer">
+							<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+							<input type="submit" class="btn btn-danger" value="Delete">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>                                		                            

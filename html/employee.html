@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Employee</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/manageTable.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="../js/employeeValidation.js"></script>
+    </head>
+    <body>
+        <!-- <h2 align="left">Add New Employee</h2><br><br> -->
+        <form id="emp_form" method="POST">
+                <div class="container-fluid">
+                        <div class="table-wrapper">
+                                <div class="table-title">
+                                        <h2>Add new Employee</b></h2>
+                                </div>
+                                    <div class="row">
+                                        <div class="col-xs-2">
+                                                <label for="firstname"> First Name:</label>
+                                                <input id="fname" type="text" class="form-control" name="firstname" required><span class="error_form" id="error_fname" style="color: red"></span><br><br>
+                    
+                                                <label for="lastname">Last Name:</label> 
+                                                <input id="lname" type="text" class="form-control" name="lastname" required><span class="error_form" id="error_lname" style="color: red"></span><br><br>
+                    
+                                                <label for="visa">Visa:</label>
+                                                <input id="visa" type="text" class="form-control" name="visa" maxlength="3" required><span class="error_form" id="error_visa" style="color: red"></span><br><br>
+                    
+                                                <label for="factory">Factory:</label>
+                                                <select class="form-control">
+                                                    <option value="net">.NET</option>
+                                                    <option value="java">Java</option>
+                                                    <option value="testing">Testing</option>
+                                                    <option value="ba">Business Analysis</option>
+                                                </select><br>
+                    
+                                                <label for="centre">Centre:</label>
+                                                <input type="text" class="form-control" name="centre" id="centre" value="ELCA_MRU" readonly><br><br>
+                    
+                                                <button id="submitBtn" class="btn btn-success" type="button">Submit</button> &nbsp;
+                                                <button id="cancelBtn" class="btn btn-danger" type="button">Cancel</button>
+                                        </div>     
+                                        </div>
+                                    </div>
+                                      
+                                </div>                                    
+                            
+                </div>
+        </form>
+    </body>
+</html>
